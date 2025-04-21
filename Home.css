@@ -1,0 +1,87 @@
+body{
+    font-family: "Comfortaa", sans-serif;
+}
+.parent{
+    position: relative;
+    border: 1px solid black;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+.solid-circle{
+    height: 750px;
+    width: 750px;
+    background-color: #476ef4;
+    border-radius: 50%;
+    position: absolute;
+    right: -375px;
+    top: -120px;
+    z-index: 1;
+}
+.header-home{
+    
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    top: 10px;
+    padding: 0px 25px;
+}
+#click-here-button{
+    background-color: white;
+    color: #476Ef7;
+    font-weight: 600;
+    font-size: large;
+    box-shadow: 0px 4px 2px rgba(0, 0,0,0.50);
+}
+#name{
+  color: #476Ef7;
+  font-size: 150px;
+}
+.form-floating{
+    box-shadow: 4px 4px 4px rgba(0, 0,0,0.25);
+    border-radius: 8px;
+}
+#login-button{
+    background-color: #476Ef7;
+    color: white;
+    padding: 5px 25px;
+}
+.main-content{
+    margin-left: 25px;
+}
+
+@media only screen and (max-width: 768px) {
+    body{
+        font-family: "Comfortaa", sans-serif;
+    }
+    .solid-circle{
+        background-color: black;
+       width: 300px;
+       height: 300px;
+       right: -150px;
+       top: -115px;
+    }
+    #name{
+        color: black;
+    }
+    #login-button{
+        background-color: #476Ef7;
+    
+    }
+    #click-here-button{
+        color: black;
+       
+    }
+    .form-floating{
+        width: 350px;
+        box-shadow: 4px 4px 4px rgba(0, 0,0,0.25);
+        border-radius: 8px;
+    }
+    #name{
+        color: #476Ef7;
+        font-size: 50px;
+      }
+}
